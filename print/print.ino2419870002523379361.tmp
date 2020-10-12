@@ -1,0 +1,19 @@
+int j=1,dtime=750,x=3,y=7,z;
+String mystring=" + ";
+
+void setup() {
+  // put your setup code here, to run once:
+Serial.begin(115200);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+z=x+y;
+Serial.print(x);
+Serial.print(mystring);
+
+Serial.print(y);
+Serial.print(" = "); 
+Serial.print(z);
+delay(dtime);
+}
